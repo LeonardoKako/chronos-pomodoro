@@ -1,6 +1,7 @@
 import Container from '../../components/Container';
 import GenericHtml from '../../components/GenericHtml';
 import Heading from '../../components/Heading';
+import RouterLink from '../../components/RouterLink';
 import MainTemplate from '../../templates/MainTemplate';
 
 function AboutPomodoro() {
@@ -52,8 +53,8 @@ function AboutPomodoro() {
             <p>
               Você pode configurar o tempo de foco, descanso curto e descanso
               longo do jeito que quiser! Basta acessar a{' '}
-              <a href='/settings'>página de configurações</a> e ajustar os
-              minutos como preferir.
+              <RouterLink href='/settings'>página de configurações</RouterLink>{' '}
+              e ajustar os minutos como preferir.
             </p>
 
             <h3>🔁 Ciclos organizados em sequência</h3>
